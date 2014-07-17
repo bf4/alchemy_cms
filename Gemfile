@@ -7,7 +7,7 @@ if ENV['RAILS_VERSION']
 end
 
 # Remove this after the new version (1.0.2) was released https://github.com/alexspeller/non-stupid-digest-assets/pull/6
-gem 'non-stupid-digest-assets', github: 'tvdeyen/non-stupid-digest-assets', branch: 'check-existence'
+gem 'non-stupid-digest-assets'
 
 # Code coverage plattform
 gem 'coveralls', require: false
